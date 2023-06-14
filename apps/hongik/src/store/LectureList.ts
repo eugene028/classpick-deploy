@@ -1,0 +1,207 @@
+import { LectureInfo } from "src/types/Lecture";
+export type LecturesType = 'allLecture' | 'GELecture' | 'SWLecture' | 'MJLecture';
+
+export const LectureList: LectureInfo[] = [
+    {
+        key: 'GELecture',
+        lecture: '영어',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'GELecture',
+        lecture: '논리적사고와글쓰기',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'GELecture',
+        lecture: '특성화교양',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'GELecture',
+        lecture: '예술과디자인',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Failed',
+    },
+    {
+        key: 'GELecture',
+        lecture: '제2외국어와한문',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Failed',
+        lectureDetail:[
+            {
+                lectureLabel: '교양일본어(1)/(2)',
+                term: '매학기',
+                grade: 3,
+            },
+            {
+                lectureLabel: '교양프랑스어(1)/(2)',
+                term: '매학기',
+                grade: 3,
+            },
+            {
+                lectureLabel: '교양독일어(1)/(2)',
+                term: '매학기',
+                grade: 3,
+            },
+            {
+                lectureLabel: '교양중국어(1)/(2)',
+                term: '매학기',
+                grade: 3,
+            },
+            {
+                lectureLabel: '교양스페인어(1)/(2)',
+                term: '매학기',
+                grade: 3,
+            },
+            {
+                lectureLabel: '교양한문(1)/(2)',
+                term: '매학기',
+                grade: 3,
+            }
+        ]
+    },
+    {
+        key: 'GELecture',
+        lecture: '과학과컴퓨터',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'GELecture',
+        lecture: '언어와철학',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'GELecture',
+        lecture: '법과생활',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'GELecture',
+        lecture: '사회와경제',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'GELecture',
+        lecture: '역사와문화',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'GELecture',
+        lecture: '역사와문화',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'SWLecture',
+        lecture: 'SW(소양)',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'SWLecture',
+        lecture: 'SW(기초)',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'SWLecture',
+        lecture: 'SW(심화)',
+        category: '교필',
+        grade: 3,
+        isPassed : 'Passed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '기초평면(1)',
+        category: '전기',
+        grade: 3,
+        isPassed: 'Passed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '기초입체(1)',
+        category: '전기',
+        grade: 3,
+        isPassed: 'Passed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '전공기초영어',
+        category: '전기',
+        grade: 3,
+        isPassed: 'Passed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '커뮤니케이션디자인(1)',
+        category: '전필',
+        grade: 3,
+        isPassed: 'Passed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '커뮤니케이션디자인(2)',
+        category: '전필',
+        grade: 3,
+        isPassed: 'Passed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '한국디자인사(1)',
+        category: '전필',
+        grade: 3,
+        isPassed: 'Failed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '한국디자인사(2)',
+        category: '전필',
+        grade: 3,
+        isPassed: 'Failed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '스튜디오/워크샵(3)',
+        category: '전필',
+        grade: 3,
+        isPassed: 'Failed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '졸업프로젝트',
+        category: '전필',
+        grade: 3,
+        isPassed: 'Failed',
+    },
+    {
+        key: 'MJLecture',
+        lecture: '미대전공공통',
+        category: '전선',
+        grade: 2,
+        isPassed: 'Passed',
+    },
+
+
+]
